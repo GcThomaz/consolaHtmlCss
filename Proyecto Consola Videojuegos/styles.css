@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+}
+#container{
+    background: linear-gradient(slateblue, purple) ;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#carcasa{
+    background-color: lightgray;
+    border: 1px solid black;
+    height: 500px;
+    width: 300px;
+    border-radius: 20px 20px 50px 20px;
+    box-shadow: 5px 5px 2px 2px rgb(75, 75, 75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.componentes{
+    width: 85%;
+}
+#pantalla{
+    background-color: black;
+    height: 250px;
+    border-radius: 10px 10px 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#tela{
+    background: linear-gradient(lightgreen, green);
+    height: 70%;
+    width: 70%;
+    border-radius: 10px;
+}
+#logo{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#letrasLogo{
+    width: 80px;
+    border: 1px solid darkgrey;
+    color: darkgrey;
+    border-radius: 20px;
+    text-align: center;
+}
+#control{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#movimento{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#botao-movimento{
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 1px 1px grey;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#cima{
+    background-image: url('./img/change_history_FILL1_wght400_GRAD0_opsz48.png');
+    filter: drop-shadow(2px 2px 2px rgb(110, 110, 110));
+    background-size: cover;
+}
+#baixo{
+    background-image: url('./img/change_history_FILL1_wght400_GRAD0_opsz48.png');
+    transform: rotate(180deg);
+    filter: drop-shadow(2px 2px 2px rgb(110, 110, 110));
+    background-size: cover;
+}
+#direita{
+    background-image: url('./img/change_history_FILL1_wght400_GRAD0_opsz48.png');
+    transform: rotate(90deg);
+    filter: drop-shadow(2px 2px 2px rgb(110, 110, 110));
+    background-size: cover;
+}
+#esquerda{
+    background-image: url('./img/change_history_FILL1_wght400_GRAD0_opsz48.png');
+    transform: rotate(270deg);
+    filter: drop-shadow(2px 2px 2px rgb(110, 110, 110));
+    background-size: cover;
+}
+#centro{
+    background-image: url('./img/circle_FILL1_wght400_GRAD0_opsz48.png');
+    filter: drop-shadow(2px 2px 2px rgb(110, 110, 110));
+    filter: drop-shadow(1px 1px 1px white);
+    background-size: cover;
+}
+#acoes{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botao-a{
+    height: 80px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+}
+#botao-b{
+    height: 80px;
+    width: 70px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.estiloBotao{
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    box-shadow: 2px 2px 1px 1px grey;
+    border-radius: 100%;
+    color: rgb(117, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+}
+#inicio{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#start{
+    height: 70px;
+    width: 84px;
+}
+#center{
+    height: 70px;
+    width: 84px;
+    display: flex;
+    justify-content: center;
+}
+.butao{
+    background-color: black;
+    height: 15px;
+    width: 40px;
+    box-shadow: 2px 2px 1px 1px grey;
+    border-radius: 50%;
+}
+.butao-1{
+    margin-right: 15px;
+}
+#end{
+    height: 70px;
+    width: 84px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+#audio{
+    background-image: url('./img/blur_on_FILL0_wght400_GRAD0_opsz48.png');
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    border-radius: 30%;
+}
