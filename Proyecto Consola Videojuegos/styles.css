@@ -15,7 +15,7 @@ body{
     height: 500px;
     width: 300px;
     border-radius: 20px 20px 50px 20px;
-    box-shadow: 5px 5px 2px 2px rgb(75, 75, 75);
+    box-shadow: 5px 5px 10px rgb(75, 75, 75);
     display: flex;
     flex-direction: column;
     align-items: center;
